@@ -20,21 +20,19 @@ a:visited { font: 12px "Times New Roman", Times, serif; color:#8C6239; text-deco
 #realname,#titlename,#birthday,#phone,#mobile,#email,#homepage,#im
 { padding-bottom:5px; display:block; font:bold 12px "Times New Roman", Times, serif; color:#815A30; }
 #realnameValue,#titleValue,#birthdayValue,#phoneValue,#mobileValue,#emailValue,#homepageValue,#imValue
-{ display:block; font: 12px "Times New Roman", Times, serif; color:#8C6239; padding-bottom:10px; background:url(../images/general_bgline.gif) no-repeat bottom; }
+{ display:block; font: 12px "Times New Roman", Times, serif; color:#8C6239; padding-bottom:10px; background:url(../images/general_bgline.gif) no-repeat bottom; margin-left: 65px;}
 
 #objective { text-align:center; }
 #objective p { padding-top:120px; background:url(../images/objective.gif) no-repeat center top; }
 
 #skillareas ol { padding-top:120px; background:url(../images/skillareas.gif) no-repeat center top; }
 #skillareas ol .skill h3 { margin-top:20px; }
-#skillareas ol .skill { }
+#skillareas ol .skill {text-align:left; }
 #skillareas ol .skill .skillset{ }
-#skillareas ol .skill .skillset li { line-height:200%; list-style:upper-roman; }
+#skillareas ol .skill .skillset li { line-height:200%; list-style:circle; }
 
+#history { background:url();}
 #history ol { padding-top:120px; background:url(../images/history.gif) no-repeat center top; }
-#history ol .job { list-style:upper-roman inside; }
-
-#awards { background:url();}
-#awards ol { padding-top:120px; background:url(../images/awards.gif) no-repeat center top; }
+#history ol .job {text-align:left; }
 
 #lastModified,#copyright{ width:270px; padding-bottom:10px; text-align:center; font:bold 12px "Times New Roman", Times, serif; color:#9B744A;}
